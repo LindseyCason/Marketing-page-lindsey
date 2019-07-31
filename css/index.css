@@ -175,6 +175,8 @@ img {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   background-color: #ff9f1c;
+  border-bottom: 0px;
+  border-right: 0px;
 }
 .navBarItems a:hover {
   background-color: #2EC4B6;
@@ -187,14 +189,18 @@ img {
     text-align: justify;
     width: 100%;
     border-bottom: 2px solid #011627;
+    border-bottom: 0px;
+    border-right: 0px;
   }
 }
 a {
   text-decoration: none;
   padding: 20px;
   color: #011627;
+  border-bottom: 0px;
+  border-right: 0px;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   a {
     border-bottom: 0px;
     border-right: 0px;
@@ -496,10 +502,25 @@ h1 {
     text-align: justify;
   }
 }
+.row1 .lindsey,
+.row1 .krishan,
+.row1 .tim,
+.row1 .adam,
+.row1 .blaine,
+.row1 .christian,
+.row1 .mario,
+.row1 .marco {
+  margin: 15px;
+}
 .row2 {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+}
+.row2 .christian,
+.row2 .mario,
+.row2 .marco {
+  margin: 15px;
 }
 @media (max-width: 500px) {
   .row2 {
@@ -550,6 +571,11 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+}
+.row3 .adam,
+.row3 .blaine,
+.row3 .marco {
+  margin: 15px;
 }
 @media (max-width: 500px) {
   .row3 {
