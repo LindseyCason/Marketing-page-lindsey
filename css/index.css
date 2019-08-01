@@ -227,6 +227,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-image: linear-gradient(to bottom, #2EC4B6, #fdfffc);
 }
 @media (max-width: 500px) {
   .topSection {
@@ -335,6 +336,9 @@ h1 {
 }
 .midSectionSignUp p {
   font-size: 2rem;
+}
+.aboutBody {
+  background-image: linear-gradient(to left, #2EC4B6, #fdfffc);
 }
 h1 {
   text-align: center;
