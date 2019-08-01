@@ -504,6 +504,18 @@ h3 {
   padding: 40px;
   padding-top: 100px;
 }
+@media (max-width: 500px) {
+  .contactInfo {
+    padding: 0px;
+    text-align: center;
+  }
+}
 .contactMain {
   padding: 40px;
+}
+@media (max-width: 500px) {
+  .contactMain {
+    display: flex;
+    flex-direction: column;
+  }
 }

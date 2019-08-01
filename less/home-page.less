@@ -280,7 +280,12 @@ h1{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+  }
+  h1 .contactH1Questions{
+    @media(max-width: 500px){
+        font-size: 80rem;
       }
+
   }
 
   .contactMain{
@@ -295,6 +300,7 @@ h1{
       background-color:@darkBlue;
       color:@pink;
       text-align: center;
+
   }
   h2{
       font-family: @montFont;
@@ -309,7 +315,16 @@ h1{
   .contactInfo{
       padding: 40px;
       padding-top:100px;
+      @media(max-width: 500px){
+          padding:0px;
+          text-align: center;
+      }
   }
   .contactMain{
       padding:40px;
+      @media(max-width: 500px){
+          display: flex;
+          flex-direction: column;
+
+      }
   }
