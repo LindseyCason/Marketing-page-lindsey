@@ -471,7 +471,7 @@ h1 {
 .contactTopImage {
   position: relative;
   text-align: center;
-  color: #E71d36;
+  color: #011627;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
 }
@@ -480,4 +480,30 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.contactMain {
+  display: flex;
+}
+.submit {
+  width: 13rem;
+  padding: 1rem;
+  background-color: #011627;
+  color: #E71d36;
+  text-align: center;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+h3 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 4rem;
+}
+.contactInfo {
+  padding: 40px;
+  padding-top: 100px;
+}
+.contactMain {
+  padding: 40px;
 }
