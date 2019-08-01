@@ -344,9 +344,8 @@ h1 {
 }
 .topAboutImage img {
   width: 100%;
-  opacity: 0.7;
+  opacity: 1;
   margin-bottom: 50px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 @media (max-width: 500px) {
   .topAboutImage img {
@@ -468,4 +467,17 @@ h1 {
   background-image: linear-gradient(to left, #2EC4B6, #fdfffc);
   max-width: 1080px;
   margin: 0 auto;
+}
+.contactTopImage {
+  position: relative;
+  text-align: center;
+  color: #E71d36;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bolder;
+}
+.contactTopImage .contactH1Questions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

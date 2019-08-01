@@ -138,9 +138,9 @@ h1{
 }
 .topAboutImage img{
     width: 100%;
-    opacity: .7;
+    opacity: 1;
     margin-bottom: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     @media (max-width: 500px){
         display: none;
@@ -266,3 +266,19 @@ h1{
 
 
 //////////////////////////////
+
+
+
+.contactTopImage{
+    position: relative;
+    text-align: center;
+    color: @pink;
+    font-family: @sourceFont;
+    font-weight: bolder;
+    .contactH1Questions {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  }
