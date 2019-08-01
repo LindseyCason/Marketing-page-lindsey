@@ -5,24 +5,20 @@ body{
 h1{
     font-family: @montFont;
     text-align: left;
-    border-bottom: 2px dotted @pink;
-    // text-decoration: underline;
+    // border-bottom: 2px dotted @pink;
 }
 
 .topSection{
-    // border: 2px solid green;
     padding-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    // border-radius: 60px;
     background-image: linear-gradient(to bottom, @teal , @white);
-        @media (max-width: 500px){
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        // border: 2px solid orange;
+    @media (max-width: 500px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 }
 
@@ -34,7 +30,6 @@ h1{
     width: 48%;
     padding:30px;
     line-height: 5em;
-    // border: 2px solid red;
    @media (max-width: 500px){
         display: flex;
         flex-direction: column;
@@ -64,7 +59,6 @@ h1{
 }
 
 .appIcons{
-    // border: 2px solid purple;
     width: 60%;
     margin-bottom: 10px;
     
@@ -99,21 +93,20 @@ h1{
 }
 .midSectionLogIn{
     border-radius: 10%;
-    // padding: 2rem;
-    // border: 2px solid red;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     width: 45%;
-    a{
-        width:60%;
-        background-color: @yellow;
-        font-size: 1.5rem;
-        font-family: @montFont;
-    }
-    p{
-        font-size: 2rem;}
+        a{
+            width:60%;
+            background-color: @yellow;
+            font-size: 1.5rem;
+            font-family: @montFont;
+        }
+        p{
+            font-size: 2rem;
+        }
 }
 
 .midSectionSignUp{
@@ -167,11 +160,9 @@ h1{
         align-items: center;
         text-align: justify; 
     }
-    // margin: 20px;
     .aboutMainLeftColumn{
         padding-right:10px;
         width: 30%;
-        // border: 2px solid green;
         @media (max-width: 500px){
             display: flex;
             flex-direction: column;
@@ -179,7 +170,6 @@ h1{
             text-align: center;
         }
             .aboutMainImageGraph1{
-                // border: 2px solid @darkBlue;
                 padding-top:9rem;
                 @media (max-width: 800px){
                     display: none;
@@ -198,6 +188,9 @@ h1{
         padding-left: 5rem;
         padding-top: 40px;
         width: 60%;
+        @media(max-width:500px){
+            width:48%;
+            }
         @media (max-width: 800px){
             display: flex;
             flex-direction: column;
@@ -205,9 +198,10 @@ h1{
             text-align: justify;
             padding-top: 2rem;
             padding-left: 0rem;
-        }
+            align-items: center;
+            }
         p{
-            padding-bottom: 5rem;
+        padding-bottom: 5rem;
         }
         .aboutAppButtons{
             display: flex;
@@ -219,6 +213,7 @@ h1{
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
+                width:48%;
                 
             }
             img{
@@ -243,273 +238,28 @@ h1{
 
 //MEET THE TEAM CODES//
 
-.h1Meet{
-                text-align: right;
-                width:100%;
-                padding-right: 40px;
-                border-bottom: 2px dotted @pink;
-                // text-decoration: underline;
-            }
 .meetTheTeam{
-            // display: flex;
+            display: flex;
             justify-content: space-evenly;
-            // border: 2px solid red;
             align-items: center;
-            // flex-direction: column;
-            // padding:40px;
             @media (max-width:768px) {
                 padding:3% 15%;               
             }
                 h1{
                     margin-bottom: 30px;
                 }
-            
-            
-    }
-        .row1{
-            padding-top:40px;
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            @media (max-width: 500px){
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                
-            }
-
-
-            .teammate{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: column;
-            
-                img{
-                    
-                    //
-                    width: 250px;
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                    //
-                    border-radius: 2%;
-                }
-                a{
-                    font-size:1.5rem;
-                    background-color: @yellow;
-                    border-radius: 5px;
-                    margin-top: 10px;
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-                }
-                a:hover{
-                    opacity: .7;
-                    background-color: @pink;
-                    
-                }
-                p{
-                    @media (max-width: 500px){
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        align-items: center;
-                        width: 100%;
-                        text-align: justify;
-                        
-                    }
-                    width: 90%;
-                    text-align: justify;
-                    padding-top:10px;
-
-                }
-    }    
-.lindsey, .krishan, .tim, .adam, .blaine, .christian, .mario, .marco{
-    margin: 15px;
-}
-
-
-}
-.row2{
-    .christian, .mario, .marco{
-        margin: 15px;
-    }
-    
-
-
-
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    @media (max-width: 500px){
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        
-    }
-
-    .teammate{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    
-        img{
-            width: 250px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2%;
-        }
-        a{
-            font-size:1.5rem;
-            background-color: @yellow;
-            border-radius: 5px;
-            margin-top: 10px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-        }
-        a:hover{
-            opacity: .7;
-            background-color: @pink;
-
-            
-        }
-        p{
-            @media (max-width: 500px){
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                text-align: justify;
-                
-            }
-            width: 90%;
-            text-align: justify;
-            padding-top:10px;
-
-        }
-}
-}
-.row3{
-    .adam, .blaine, .marco{
-        margin: 15px;
-    }
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    @media (max-width: 500px){
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        
-    }
-
-    .teammate{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    
-        img{
-            width: 250px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: 2%;
-        }
-        a{
-            font-size:1.5rem;
-            background-color: @yellow;
-            border-radius: 5px;
-            margin-top: 10px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-        }
-        a:hover{
-            opacity: .7;
-            background-color: @pink;
-
-            
-        }
-        p{
-            @media (max-width: 500px){
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                text-align: justify;
-                
-            }
-            width: 90%;
-            padding-top:10px;
-            text-align: justify;
-        }
-}  
-}
-.row4{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    @media (max-width: 500px){
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        
-    }
-
-    .teammate{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    
-        img{
-            width: 250px;
-            border-radius: 2%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-        a{
-            font-size:1.5rem;
-            background-color: @yellow;
-            border-radius: 5px;
-            margin-top: 10px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-            
-            
-        }
-        a:hover{
-                opacity: .7;
-                background-color: @pink;
-
-            }
-        p{
-            @media (max-width: 500px){
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                text-align: justify;
-                
-            }
-            width: 90%;
-            text-align: justify;
-            padding-top:10px;
-
-        }
-}
-}
+}   
 
 .aboutBody{
     max-width: 1080px;
+    min-width: 450px;
     margin: 0 auto;
-    }
-    .homeBody{
-        max-width: 1080px;
-        margin: 0 auto;
-        }
+}
+.homeBody{
+    max-width: 1080px;
+    min-width: 450px;
+    margin: 0 auto;
+}
 
 
 
